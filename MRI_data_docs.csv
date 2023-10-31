@@ -1,0 +1,31 @@
+﻿col_names,description
+ptid,Participant ID number
+mridate,Date that participant underwent MRI as MMDDYY
+age,Age in years at time of MRI
+male,0=female 1=male
+race,1=white 2=black 3=asian 4=other
+weight,Participant weight at time of MRI in pounds
+height,Participant height at time of MRI in centimeters
+packyrs,Participant smoking history where 1 packyr = smoking one pack of cigarettes for one year 
+yrsqui,Number of years since quitting smoking
+t    alcoh,Average weekly alcohol intake in the 2 wks before MRI in number of drinks (Note typo in col name from original dataset)
+physact,"Physical activity of the participant for the week prior to MRI measured in 1,000 kcal"
+chf,0=Participant has not been diagnosed with congestive heart failure 1=has been diagnosed (Congestive heart failure is a disease in which the heart is unable to pump blood properly)
+chd,0=Not been diagnosed 1=diagnosis of angina (chest pain from arterial blockage) 2=diagnosis of myocardial infarction (heart attack)
+stroke,0=Not been diagnosed 1=transient ischemic attack (tissue deprived of oxygen) diagnosis 2=stroke diagnosis
+diabet,0=Not been diagnosed with diabetes 1=borderline 2=full diabetes
+genhlth,Participant's view of their own health 1=excellent 2=very good 3=good 4=fair 5=poor
+ldl,"Low density lipoprotein ""bad"" cholesterol count (typical range of 100-189mg/dl age 70+) at time of MRI"
+alb,Albumin level as a marker for normal liver function (typical range of 3.2-5.5mg/dl) at time of MRI
+crt,Creatinine level as a marker of kidney health where high levels indicate kidney disease (typical range of 0.5-1.2mg/dl)
+plt,Number of platelets in participant's blood at time of MRI (typical range of 140-440 thousand plts per cubic millimeter)
+sbp,Participant's systolic blood pressure at time of MRI (typical range of 110-140mm Hg)
+aai,Ratio of systolic blood pressure measured in ankle compared to arm measurement (no arterial disease if aai=1)
+fev,Forced expiratory volume (exhaled volume of air) in liters per second
+dsst,Digit symbol substitution test (measure of cognitive function out of 100)
+atrophy,Global brain atrophy (0=no ventricular enlargement 100=most severe degree of atrophy)
+whgrd,White matter changes (0=no changes 9=marked changes)
+numinf,Number of infarct (dead oxygen-deprived brain regions) suggestive regions from MRI
+volinf,Total volume of infarct-like lesions from MRI
+obstime,Time in days that participant was observed
+death,0=Participant's obstime ends at the end of the study on September 16 1997 1=Participant died in course of study (obstime=num days between MRI and day of death)
